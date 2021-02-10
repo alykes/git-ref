@@ -1,0 +1,25 @@
+# Valuable git commands
+
+##Setting up git
+```git --global user.name "first.last"
+git --global user.email "user@domain.com"```
+
+* To set values for a specific project, drop --global
+```git user.name "first.last"
+git user.email "user@domain.com"```
+
+
+##Listing variables
+```git config --List```
+
+* To list specific variables
+```git config user.name
+git config user.email```
+
+
+##Help
+```git help <config/commit/etc>```
+
+## Initialising a new repo
+Run the command from the directory you wish to host the new repo in
+```git init```
