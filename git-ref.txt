@@ -1,8 +1,8 @@
 # Valuable git commands
 
 ##Setting up git
-```git --global user.name "first.last"
-git --global user.email "user@domain.com"```
+```git config --global user.name "first.last"
+git config --global user.email "user@domain.com"```
 
 * To set values for a specific project, drop --global
 ```git user.name "first.last"
@@ -16,10 +16,17 @@ git user.email "user@domain.com"```
 ```git config user.name
 git config user.email```
 
-
 ##Help
 ```git help <config/commit/etc>```
 
 ## Initialising a new repo
 Run the command from the directory you wish to host the new repo in
 ```git init```
+
+## Set up a repo on github
+Add the remote origin to the local repo, so that you can push/pull changes
+
+```git remote add origin https://github.com/alykes/git-ref.git```
+
+## Push changed up to the remote repo
+```git push -u origin master```
