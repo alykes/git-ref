@@ -120,3 +120,6 @@ Moves commits from history back into the staging area or throw changes away, don
 ```git reset --mixed <commit.id>``` OR ```git reset <commit.id>```
 * Moves changes to the bin (also deletes changes in your working directory or staging directory)
 ```git reset --hard <commit.id>```
+
+## Pull
+```git pull``` or ```git pull --all```
