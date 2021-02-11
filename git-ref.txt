@@ -55,3 +55,12 @@ When you *commit* a file it is in the _COMMITED_ state
 
 * To compare the difference in the working directory with what is STAGED (*add*ed)
 ```git diff```
+
+## Commit changed
+```git commit -m "A description of the changes made"
+* Shortcut to skip stages -a
+```git commit -a -m "A description of the changes made"
+
+## Push changes
+* Push locally commited changes up to the remote master
+```git push origin master``` ```git push origin main```
