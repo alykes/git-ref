@@ -95,7 +95,7 @@ When you *commit* a file it is in the _COMMITED_ state
 ``git checkout -b new.branch
 
 ## Stash
-* If you are switching branched and have uncommitted changed, stash them to save the working directory as WIP
+* If you are switching branches and have uncommitted changed, stash them to save the working directory as WIP
 ``git stash```
 * List the stash
 ``git stash list```
@@ -105,6 +105,9 @@ When you *commit* a file it is in the _COMMITED_ state
 ```git stash pop```
 
 ## Merge a branch
-* from main or master
+* from main or master (or wherever you want to merge into)
 ```git merge new.branch```
-  Add a message and save
+* Add a message and save
+``git merge new.branch```
+* If you receive an error about unrelated histories
+```git merge master --allow-unrelated-histories```
