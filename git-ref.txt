@@ -103,3 +103,8 @@ When you *commit* a file it is in the _COMMITED_ state
 ```git stash show```
 * Put the changes back into your working directory
 ```git stash pop```
+
+## Merge a branch
+* from main or master
+```git merge new.branch```
+  Add a message and save
