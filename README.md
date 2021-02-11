@@ -15,7 +15,7 @@ List of useful git commands with some context around each command.
 ```git config --List```
 
 * To list specific variables
-```git config user.name``` 
+```git config user.name```
 ```git config user.email```
 
 ## Help
@@ -35,8 +35,8 @@ Add the remote origin to the local repo, so that you can push/pull changes
 
 ## Status of the local repo in comparison to the origin/master
 The results will let you know if there is anything to commit and what has and hasn't been staged.
-```git status``
-For a briefer response
+```git status```
+* For a briefer response
 ```git status --short``` or ```git status -s```
 
 ## Add file(s) to the repo
@@ -59,6 +59,7 @@ When you *commit* a file it is in the _COMMITED_ state
 ```git diff```
 
 ## Commit changes
+* To commit the staged files to the local repo
 ```git commit -m "A description of the changes made"```
 * Shortcut to skip stages -a
 ```git commit -a -m "A description of the changes made"```
@@ -80,12 +81,13 @@ When you *commit* a file it is in the _COMMITED_ state
 ```git log --patch```
 
 ## Remove files from the local repo
-* To delete the file from disk and from the respo
+* To delete the file from disk and from the repo
 ```git rm <file.name>```
-* To remove the file from the working directory but leave it on disk
+* To remove the file from being tracked but leave it on disk
 ```git rm --cached <file.name>```
 
 ## Renaming files
+* Simply rename the file with the following command
 ```git rn old.file.name new.file.name```
 
 ## Branches
@@ -98,20 +100,20 @@ When you *commit* a file it is in the _COMMITED_ state
 
 ## Stash
 * If you are switching branches and have uncommitted changed, stash them to save the working directory as WIP
-``git stash```
+```git stash```
 * List the stash
-``git stash list```
+```git stash list```
 * Show a more detailed view of the files stashed
 ```git stash show```
 * Put the changes back into your working directory
 ```git stash pop```
 
 ## Merge a branch
-* from main or master (or wherever you want to merge into)
+* From main or master (or wherever you want to merge into)
 ```git merge new.branch```
 * Add a message and save
 ``git merge new.branch```
-* If you receive an error about unrelated histories
+* If you receive an error about unrelated histories, you the command below, like a boss!
 ```git merge master --allow-unrelated-histories```
 
 ## Reset
