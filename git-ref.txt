@@ -111,3 +111,12 @@ When you *commit* a file it is in the _COMMITED_ state
 ``git merge new.branch```
 * If you receive an error about unrelated histories
 ```git merge master --allow-unrelated-histories```
+
+## Reset
+Moves commits from history back into the staging area or throw changes away, don't reset after a push to the remote origin as you could disrupt other peoples work flow
+* Move commits back into the staging area
+```git reset --soft <commit.id>```
+* Move commits back into the working directory
+```git reset --mixed <commit.id>``` OR ```git reset <commit.id>```
+* Moves changes to the bin (also deletes changes in your working directory or staging directory)
+```git reset --hard <commit.id>```
