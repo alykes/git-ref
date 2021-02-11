@@ -97,6 +97,10 @@ When you *commit* a file it is in the _COMMITED_ state
 ``git branch new.branch```
 * Create a new branch and checkout to it
 ``git checkout -b new.branch```
+* Delete a local branch
+```git delete -D <some_branch>```
+* Delete remote branch
+```git push origin --delete <some_branch>```
 
 ## Stash
 * If you are switching branches and have uncommitted changed, stash them to save the working directory as WIP
