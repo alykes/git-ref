@@ -29,4 +29,29 @@ Add the remote origin to the local repo, so that you can push/pull changes
 ```git remote add origin https://github.com/alykes/git-ref.git```
 
 ## Push changed up to the remote repo
-```git push -u origin master```
+```git push -u origin main```
+
+## Status of the local repo in comparison to the origin/master
+The results will let you know if there is anything to commit and what has and hasn't been staged.
+```git status``
+For a briefer response
+```git status --short``` or ```git status -s```
+
+## Add file(s) to the repo
+* Add a single file
+```git add <file.name>```
+* Add multiple files
+```git add .```
+
+### Reminder Tip
+When you *add* a file, it is in a _STAGED_ state
+When you *commit* a file it is in the _COMMITED_ state
+
+## Diff command
+* To compare files STAGED (*add*ed) with the last commit snapshot
+```git diff --staged```
+* To tell git not to treat files as copies of one another
+```git diff --staged --no-renames```
+
+* To compare the difference in the working directory with what is STAGED (*add*ed)
+```git diff```
