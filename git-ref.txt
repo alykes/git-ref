@@ -9,14 +9,14 @@ git config --global user.email "user@domain.com"```
 git user.email "user@domain.com"```
 
 
-##Listing variables
+## Listing variables
 ```git config --List```
 
 * To list specific variables
 ```git config user.name
 git config user.email```
 
-##Help
+## Help
 ```git help <config/commit/etc>```
 
 ## Initialising a new repo
@@ -64,3 +64,24 @@ When you *commit* a file it is in the _COMMITED_ state
 ## Push changes
 * Push locally commited changes up to the remote master
 ```git push origin master``` ```git push origin main```
+
+## Log command
+* view local commit history in reverse chronological order
+```git log```
+* Limit output, latest commit
+```git log -1 ```
+* shows commits in a single line format, good for summarising
+```git log --oneline```
+* Shows stats of each file modified and grouped by commit
+```git log --stat```
+* Shows a detailed view of each commit, including changes
+```git log --patch```
+
+## Remove files from the local repo
+* To delete the file from disk and from the respo
+```git rm <file.name>```
+* To remove the file from the working directory but leave it on disk
+```git rm --cached <file.name>```
+
+## Renaming files
+```git rn old.file.name new.file.name```
