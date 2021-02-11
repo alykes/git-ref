@@ -85,3 +85,9 @@ When you *commit* a file it is in the _COMMITED_ state
 
 ## Renaming files
 ```git rn old.file.name new.file.name```
+
+## Branches
+* Create a new branch
+``git branch new.branch```
+* Create a new branch and checkout to it
+``git checkout -b new.branch
