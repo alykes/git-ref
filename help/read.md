@@ -12,7 +12,7 @@ List common git guides
 `git help -g`
 
 More help information on a command  
-```git help <command>```
+`git help <command>`
 ```
 eg 
 git help rebase
@@ -31,8 +31,10 @@ git rebase --help
 **Note:** Use the `-p` or `--paginate` switch to pasue the output at each page.
 
 Git configuration  
-```git config help```
+`git config help`
 
 Git glossary  
-```git help glossary```  
+`git help glossary`  
 
+Useful command that shows you information in relation to the .git directory  
+`git help repository-layout`
