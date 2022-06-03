@@ -2,8 +2,9 @@ The staging area is used to add, delete, and rename files before they are commit
 
 Command to use are
 - `git add` - add a file
-  To initiate the staging individual lines for commit
-  - `git add -p`
+  To stage individual lines of a file for a commit
+  - `git add -p`  
+ 
 - `git rm` - remove a file  
   The following two lines achieve the exact same outcome:    
   - `rm a.file` and then `git rm a.file`
@@ -16,3 +17,4 @@ Command to use are
 
 - `git reset` - reset the staging
   Removes any files from the staging area
+
