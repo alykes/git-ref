@@ -1,5 +1,20 @@
-Show the log history
+Show the log history  
 `git log`
 
-To show more detailed information
+`git log --oneline`
+
+To show more detailed information about file changes  
 `git log --stat`
+
+To show the parents of each commit  
+`git log --parents`  
+To make the output more readable  
+`git log --parents-abbrev-commit`
+
+To show all patches of each file during a commit
+`git log --patch`
+`git log --patch --stat`
+`git log --patch-with-stat`
+
+To view commits that pertain to a specific file  
+`git log --oneline specific.file`  
