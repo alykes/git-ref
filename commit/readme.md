@@ -18,6 +18,11 @@ Go to a specific commit version
 To go back to main  
 `git checkout main`
 
-
 To amend a commit message  
 `git commit --amend -m "Fixed commit" -m "Second paragraph" -m "Wall of text"`
+
+To find stray commits use reflog  
+`git reflog | grep commit`  
+To recover a commit  
+`git checkout -b <NEW_BRANCH_NAME> HEAD@{20}` where 20 could be any commit in the chain.  
+
