@@ -1,4 +1,4 @@
-Branch naming conventions
+Branch naming conventions  
 `git check-ref-format --help`
 
 Checking branches  
