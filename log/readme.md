@@ -12,9 +12,9 @@ To make the output more readable
 `git log --parents-abbrev-commit`
 
 To show all patches of each file during a commit
-`git log --patch`
-`git log --patch --stat`
-`git log --patch-with-stat`
+`git log --patch`  
+`git log --patch --stat`  
+`git log --patch-with-stat`  
 
 To view commits that pertain to a specific file  
 `git log --oneline specific.file`  
