@@ -23,3 +23,5 @@ To view branches and commits
 `git log --graph --decorate --pretty=oneline --all --abbrev-commit` 
 alternatively, use `gitk` to get a visual presenation of the same.  
 
+List branches and/or tags only  
+`git log --oneline --decorate --simplify-by-decoration --all`
