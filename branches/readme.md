@@ -20,5 +20,5 @@ Switching to a branch
 Checking the tip (most current) commit_id on a branch  
 `git branch -v`
 
-deleting a branch  
+Deleting a branch  
 `git branch -d <BRANCH_NAME>`
