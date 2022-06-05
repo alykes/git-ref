@@ -4,11 +4,11 @@ Branch naming conventions
 Checking branches  
 `git branch`  
 
-Creating a branch
+Creating a branch  
 `git branch dev`
 
-Switching to a branch
+Switching to a branch  
 `git checkout <BRANCH_NAME>`
 
-deleting a branch
+deleting a branch  
 `git branch -d <BRANCH_NAME>`
