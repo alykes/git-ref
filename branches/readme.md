@@ -1,3 +1,6 @@
+Branch naming conventions
+`git check-ref-format --help`
+
 Checking branches  
 `git branch`  
 
