@@ -18,3 +18,8 @@ To show all patches of each file during a commit
 
 To view commits that pertain to a specific file  
 `git log --oneline specific.file`  
+
+To view branches and commits  
+`git log --graph --decorate --pretty=oneline --all --abbrev-commit` 
+alternatively, use gitk to get a visual presenation of the same.  
+
