@@ -21,5 +21,5 @@ To view commits that pertain to a specific file
 
 To view branches and commits  
 `git log --graph --decorate --pretty=oneline --all --abbrev-commit` 
-alternatively, use gitk to get a visual presenation of the same.  
+alternatively, use `gitk` to get a visual presenation of the same.  
 
