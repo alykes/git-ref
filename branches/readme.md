@@ -7,7 +7,8 @@ Listing branches
 `git log --simplify-by-decoration --all --oneline`  
 
 Checking the history of your branch moves  
-`git reflognano`
+`git reflog`  
+`git reflog <branch>`
 
 Creating a branch  
 `git branch dev`  
