@@ -1,8 +1,9 @@
 Branch naming conventions  
 `git check-ref-format --help`
 
-Checking branches  
+Listing branches  
 `git branch`  
+`git log --simplify-by-decoration --all --oneline`  
 
 Checking the history of your branch moves  
 `git reflognano`
