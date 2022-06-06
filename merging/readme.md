@@ -19,3 +19,5 @@ The >>> bugfix is the conflicted line in the bugfix branch (remote change in rel
 
 To fix the conflict, remove the code that you don't want and then perform an add/commit
 
+To abort a merge  
+`git merge --abort`
