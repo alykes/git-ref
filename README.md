@@ -94,9 +94,9 @@ When you *commit* a file it is in the _COMMITED_ state
 * List Branches
 ```git branch```
 * Create a new branch
-``git branch new.branch```
+```git branch new.branch```
 * Create a new branch and checkout to it
-``git checkout -b new.branch```
+```git checkout -b new.branch```
 * Delete a local branch
 ```git delete -D <some_branch>```
 * Delete remote branch
@@ -116,7 +116,7 @@ When you *commit* a file it is in the _COMMITED_ state
 * From main or master (or wherever you want to merge into)
 ```git merge new.branch```
 * Add a message and save
-``git merge new.branch```
+```git merge new.branch```
 * If you receive an error about unrelated histories, you the command below, like a boss!
 ```git merge master --allow-unrelated-histories```
 
