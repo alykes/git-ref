@@ -25,3 +25,7 @@ alternatively, use `gitk` to get a visual presenation of the same.
 
 List branches and/or tags only  
 `git log --oneline --decorate --simplify-by-decoration --all`
+
+List the last change  
+`git log -1`  
+`git log max-count=1`
