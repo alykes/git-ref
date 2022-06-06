@@ -3,6 +3,7 @@ Branch naming conventions
 
 Listing branches  
 `git branch`  
+`git branch --all`  
 `git log --simplify-by-decoration --all --oneline`  
 
 Checking the history of your branch moves  
