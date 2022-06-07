@@ -9,4 +9,5 @@ _Destination Dir can be ommitted when cloning from a remote_
 
 Creating a bare directory with git clone  
 `git clone --bare <repo> <REPO_NAME>.git` (added the .git to signify that this is a bare directory)
-_Note:_ There is no working directory
+_Note:_ There is no working directory, this is can be known as the official copy of the repo.  
+This is what is hosted on places like github.
