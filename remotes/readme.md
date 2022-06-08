@@ -19,6 +19,9 @@ Setting a new remote location
 `git remote set-url <EXISITNG_REMOTE_NAME> <NEW_REMOTE_LOCATION_DIR|NEW_REMOTE_LOCATION_HTTPS>`  
 `git remote set-url partner ../math.alykes`
 
+Adding multiple repos to a single remote  
+`git remote set-url --add <EXISITING_REMOTE> <NEW_REMOTE_LOCATION_DIR|NEW_REMOTE_LOCATION_HTTPS>`  
+
 Removing a remote  
 `git remote remove <REMOTE_NAME>`  
 `git remote remove start`  
