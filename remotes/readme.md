@@ -24,5 +24,5 @@ Interrogating a remote
 `git ls-remote origin`  
 `git ls-remote origin-2`
 
-To get more verbose information during an ls-remote  
+To get more verbose network activity information wqhen issuing an `ls-remote`  
 `GIT_TRACE_PACKET=1 git ls-remote`
