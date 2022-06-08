@@ -15,6 +15,10 @@ Adding a second remote to a cloned repo
 `git remote add <NEW_REMOTE_NAME> <REPO_URL|REPO_DIRECTORY>`  
 `git remote add remote-2 ../another_clone_of_the_same_repo`
 
+Setting a new remote location  
+`git remote set-url <EXISITNG_REMOTE_NAME> <NEW_REMOTE_LOCATION_DIR|NEW_REMOTE_LOCATION_HTTPS>`  
+`git remote set-url partner ../math.alykes`
+
 Removing a remote  
 `git remote remove <REMOTE_NAME>`  
 `git remote remove start`  
