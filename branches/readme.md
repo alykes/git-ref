@@ -24,7 +24,9 @@ Renaming a branch
 `git --move <BRANCH_NAME> <NEW_BRANCH_NAME>`  
 
 Switching to a branch  
-`git checkout <BRANCH_NAME>`
+`git checkout <BRANCH_NAME>`  
+Switching to a branch and throwing away changes  
+`git checkout -f main`  
 
 Checking the tip (most current) commit_id on a branch  
 `git branch -v`
