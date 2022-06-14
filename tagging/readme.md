@@ -3,6 +3,9 @@ Tagging commits can be achieved by issueing the following command
 
 Once the commit is tagged, use the tag instead of the commit id
 
+Push all local tags to a remote  
+`git push --tags`  
+
 Tag a commit, 2 back  
 `git tag -a two_back -m "Two behind the HEAD" HEAD^^`  
 Push the change to the remote  
