@@ -31,5 +31,8 @@ eg `git remote rename origin start`
 `git ls-remote origin`  
 `git ls-remote origin-2`
 
+Showing verbose information about a remote  
+`git remote -v show origin`  
+
 - To get more verbose network activity information wqhen issuing an `ls-remote`  
 `GIT_TRACE_PACKET=1 git ls-remote`
