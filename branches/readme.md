@@ -33,5 +33,6 @@ Checking the tip (most current) commit_id on a branch
 
 Deleting a branch  
 `git branch -d <BRANCH_NAME>`  
-Deleting a remote branch  
+Deleting a remote branch (BE CAREFUL WITH THIS COMMAND)
+`git push origin <src>:<dst>`  
 `git push origin :<BRANCH_NAME>`
