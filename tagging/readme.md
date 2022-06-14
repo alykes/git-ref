@@ -8,5 +8,8 @@ Tag a commit, 2 back
 Push the change to the remote  
 `git push origin two_back`  
 
+Delete a local tag  
+`git tag -d two_back`  
+
 Delete a remote tag  
 `git push origin :two_back`
