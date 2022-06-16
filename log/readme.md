@@ -53,3 +53,15 @@ Finding commits within a time range
 
 Find commits by an author (the name can be partial)  
 `git log --author alykes`  
+
+Find differences in commits  
+_(HEAD^ is the parent of HEAD; generally the commit before)_  
+stat shows the files that have changed  
+`git log --stat HEAD^..HEAD` 
+patch shows what has changed in the files  
+`git log --patch HEAD^..HEAD`  
+Combine patch with stat  
+`git log --patch-with-stat HEAD^..HEAD`  
+
+Limit patch to a set of files only  
+`git log --patch HEAD^..HEAD -- file_one file_two`  
