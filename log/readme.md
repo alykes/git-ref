@@ -1,6 +1,8 @@
+### General git log commands
+
 Show the log history  
 `git log`  
-`git shortlog` 
+`git shortlog`  
 `git shortlog -e`  
 
 `git log --oneline`
@@ -33,7 +35,7 @@ List the last change
 `git log max-count=1`
 
 
-## Digging Deeper into git log  
+### Digging Deeper into git log  
 Show only merges  
 `git log --merges`  
 `git log --merges --oneline`  
@@ -65,3 +67,8 @@ Combine patch with stat
 
 Filter patch to only show specifc files    
 `git log --patch HEAD^..HEAD -- file_one file_two`  
+
+### Branches  
+Show branch history  
+`git log --graph --decorate --oneline branch_01 branch_02 main`  
+
