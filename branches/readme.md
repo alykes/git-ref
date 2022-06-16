@@ -36,4 +36,9 @@ Deleting a branch
 `git branch -d <BRANCH_NAME>`  
 Deleting a remote branch (BE CAREFUL WITH THIS COMMAND)
 `git push origin <src>:<dst>`  
-`git push origin :<BRANCH_NAME>`
+`git push origin :<BRANCH_NAME>`  
+
+Find a branch name from a commit  
+`git name-rev <COMMIT_ID>`  
+`git branch -r --contains <COMMIT_ID>`  
+`git branch --contains <COMMIT_ID>`  
