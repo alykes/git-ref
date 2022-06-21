@@ -6,6 +6,9 @@ List of useful git commands with some context around each command.
 ```git config --global user.name "first.last"```
 ```git config --global user.email "user@domain.com"```
 
+- For windows
+`git config --global credential.helper wincred`
+
 * To set values for a specific project, drop --global
 ```git user.name "first.last"```
 ```git user.email "user@domain.com"```
