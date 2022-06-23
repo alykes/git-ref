@@ -33,3 +33,11 @@ To save a value in git config
 `git config --local log.date relative`  
 To unset a value in git config  
 `git config --local --unset log.date`  
+
+- #### Locations for the git configuration files
+|Location|Path|Notes|
+|-|-|-|
+|Local|$GIT_DIR/config|GIT_DIR is the working directory of the repo|
+|Global|$HOME/.gitconfig||
+|System|/etc/gitconfig| linux|
+|| C:\Program Files\Git\etc\gitconfig| windows|
