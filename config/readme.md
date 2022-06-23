@@ -1,4 +1,8 @@
-### git configuration variables and order of precedence  
+###  Git Config Command
+
+The section below details some of the common uses of git config  
+
+- #### git configuration variables and order of precedence  
 
 | Scope        | Description  | Precedence (1 Highest)|
 |--------------|--------------|--|
