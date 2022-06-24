@@ -41,3 +41,8 @@ To unset a value in git config
 |Global|$HOME/.gitconfig||
 |System|/etc/gitconfig| linux|
 || C:\Program Files\Git\etc\gitconfig| windows|
+
+- #### Updating configuration files directly  
+`git config --local --edit`  
+`git config --global --edit`  
+`git config --system --edit`  
