@@ -42,6 +42,10 @@ To unset a value in git config
 |System|/etc/gitconfig| linux|
 || C:\Program Files\Git\etc\gitconfig| windows|
 
+_Hint:_ The following command will work in case the config file isn't in the default location  
+just replace **\<CONFIG\>** with; local, global or system  
+`git -c core.editor=echo config --<CONFIG> --edit`
+
 - #### Updating configuration files directly  
 `git config --local --edit`  
 `git config --global --edit`  
